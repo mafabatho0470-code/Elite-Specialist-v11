@@ -1,6 +1,6 @@
 ﻿//+------------------------------------------------------------------+
 //|                                  Elite_Specialist_V11_Vis.mq5    |
-//|                               Copyright 2026, AI Collaborator    |
+//|                               Copyright 2026    |
 //|                                              https://www.mql5.com |
 //+------------------------------------------------------------------+
 #property copyright "Copyright 2026"
