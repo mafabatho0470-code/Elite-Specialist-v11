@@ -13,11 +13,11 @@ CTrade trade;
 
 //--- Core User Customization Inputs
 input group "--- Core Risk Management ---"
-input bool      InpUseDynamicLot     = true;        // Auto-size lots based on equity?
-input double    InpRiskPercent       = 1.5;         // % Risk per trade based on ATR SL
-input double    InpFixedLotSize      = 0.01;        // Fixed lot if dynamic is false
-input int       InpMaxPositions      = 3;           // Max open positions allowed
-input bool      InpUsePartialTP      = true;        // Enable lot sizing floor for partial take profits?
+input bool      InpUseDynamicLot     = true;       
+input double    InpRiskPercent       = 1.5;         
+input double    InpFixedLotSize      = 0.01;        
+input int       InpMaxPositions      = 3;           
+input bool      InpUsePartialTP      = true;        
 
 input group "--- Pure Gold Mathematical Foundation ---"
 input int       InpStructureLookback = 100;         // S/R Lookback window
